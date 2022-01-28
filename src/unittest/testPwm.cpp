@@ -35,3 +35,11 @@ TEST(MotorFile, Test_base_001)
 	//...
 
 }
+
+TEST(MotorFile, Test_base_002)
+{
+    Motor_Mock motor;
+    Pwm pwm = Pwm(motor, 0, 1, 0, 100);
+	//...
+
+}
