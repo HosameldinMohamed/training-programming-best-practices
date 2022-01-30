@@ -14,10 +14,14 @@
 
 double Division::invoke(double left, double right) const
 {
-	return 0;
+	if(left < -30 || right == 0)
+	{
+		throw std::invalid_argument("Wrong left argument");
+	}
+	return internalInvoke(left, right);
 }
 
 double Division::internalInvoke(double left, double right) const
 {
-	return 0;
+	return left / right;
 }

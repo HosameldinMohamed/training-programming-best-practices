@@ -2,7 +2,10 @@
     "files.associations": {
         "functional": "cpp",
         "variant": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "stdexcept": "cpp"
     }
-    ,"testMate.cpp.test.executables": "${workspaceFolder}/install/bin/unittest"
+    ,
+    "testMate.cpp.test.executables": "${workspaceFolder}/install/bin/unittest",
+    "cmake.sourceDirectory": "${workspaceFolder}/src"
 }
